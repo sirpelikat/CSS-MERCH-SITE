@@ -1,0 +1,192 @@
+header {
+	color: #ffffff;
+	background: #103f45;
+	padding: 0;
+	justify-content: space-between;
+	display: flex;
+	margin: 0;
+	width: 100%;
+}
+
+#logocss {
+	width: 70px;
+	margin: 10px 20px;
+	margin-left: 30px;
+}
+
+#cart {
+	background: #FFD92D;
+	width: 90px;
+	height: 50px;
+	border: solid #FFD92D 3px;
+	border-radius: 10%;
+	margin: auto 0;
+	margin-right: 30px;
+	font-family:sans-serif;
+	display: flex;
+	justify-content: center;
+}
+
+#cart:hover {
+	background: #d4b426;
+}
+
+#textcart, #cartlogo{
+	margin : auto;
+}
+
+#header {
+	display: flex;
+	align-items: center;
+}
+
+#textheader {
+	display: block;
+	font-family: 'Bebas Neue';
+	font-size: 20px;
+	margin: auto 0;
+}
+
+#txt1, #txt2 {
+	margin: 0;	
+}
+
+.merah{
+	display: flex;
+	width: 400px;
+	margin: auto;
+	margin-top: 10px;
+	background: #fa8178;
+	padding: 1px;
+	border: solid #fa8178 5px;
+	border-radius: 20px;
+	box-shadow: 0px 1px 5px 1px #bdc1c7;
+}
+
+#textred{
+	font-size: 12px;
+	margin:0 15px  ;
+}
+
+#close{
+	font-size: 18px;
+	margin:0 10px;
+}
+
+body {
+	margin: 0;
+	padding-bottom: 3.0rem;
+	position: relative;
+	min-height: 100vh;
+	font-family:sans-serif;
+	justify-content: center;
+	background:#F4F4F4 ;
+}
+
+.text1{
+	padding: 0 60px;
+	margin-left: 14%;
+}
+
+#sen1{
+	margin-bottom:0;
+}
+
+#sen2{
+	margin-top:0;
+	font-size: 15px;
+}
+
+#itemlist{
+	display:grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: auto auto;
+	justify-content:center;
+	grid-gap: 10px;
+}
+
+.itemblock{
+	border: solid 2px white;
+	border-radius: 5%;
+	background: white;
+	width:280px;
+	margin: 10px 10px;
+	padding: 10px;
+	align-items:center;
+	box-shadow: 0px 0px 5px 1px #bdc1c7;
+}
+
+.product{
+	text-align:center;
+}
+
+
+#buybutton{
+	width: 100px;
+	color: grey;
+	background: #F4F4F4;
+	border-radius: 5%;
+	border: solid 1px #F4F4F4;
+	margin: auto;
+	padding: 10px;
+}
+
+#unavailable{
+	width: 100px;
+	color: grey;
+	background: #F4F4F4;
+	border-radius: 3%;
+	border: solid 1px #F4F4F4;
+	margin: auto;
+}
+
+#product1, #product2{
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+#product3{
+	margin-top: 20px;
+	margin-bottom: 14px;
+}
+
+#product4{
+	margin-top: 20px;
+	margin-bottom: 80px;
+}
+
+#disclaimer{
+	font-size: 13px;
+	color: grey;
+	text-align: center;
+}
+
+footer {
+	background: #103f45;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 3.0rem;
+}
+
+#globe{
+	margin: 5px 0;
+}
+
+#linkedin{
+	margin-bottom: 7px;
+}
+
+#fb{
+	margin-top: 5px;
+}
+
+#copyright{
+	font-family:sans-serif;
+	margin: auto 10px;
+	font-size: 13px;
+}
